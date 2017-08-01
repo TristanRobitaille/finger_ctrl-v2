@@ -1,0 +1,42 @@
+\hypertarget{structKinDrv_1_1usb__device__struct}{\section{Kin\+Drv\+:\+:usb\+\_\+device\+\_\+struct Struct Reference}
+\label{structKinDrv_1_1usb__device__struct}\index{Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}}
+}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{structKinDrv_1_1usb__device__struct_a0e6de35dc6c03706c83ace64c9febb37}{bus}
+\item 
+unsigned int \hyperlink{structKinDrv_1_1usb__device__struct_a68e7077ad8819f255088238f9b1cd252}{address}
+\item 
+libusb\+\_\+device $\ast$ \hyperlink{structKinDrv_1_1usb__device__struct_a9b0ea0b72fe367e18da99404e9d57c9d}{dev}
+\item 
+bool \hyperlink{structKinDrv_1_1usb__device__struct_a5edef24a9b1076404c9ab42410c82952}{connected}
+\item 
+char \hyperlink{structKinDrv_1_1usb__device__struct_a03a9e83a8e46ac647654302ceafb2a5f}{client\+\_\+name} \mbox{[}20\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+struct for internal usage only! stores U\+S\+B info about connected arms 
+
+\subsection{Member Data Documentation}
+\hypertarget{structKinDrv_1_1usb__device__struct_a68e7077ad8819f255088238f9b1cd252}{\index{Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}!address@{address}}
+\index{address@{address}!Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}}
+\subsubsection[{address}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Kin\+Drv\+::usb\+\_\+device\+\_\+struct\+::address}}\label{structKinDrv_1_1usb__device__struct_a68e7077ad8819f255088238f9b1cd252}
+U\+S\+B device address \hypertarget{structKinDrv_1_1usb__device__struct_a0e6de35dc6c03706c83ace64c9febb37}{\index{Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}!bus@{bus}}
+\index{bus@{bus}!Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}}
+\subsubsection[{bus}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Kin\+Drv\+::usb\+\_\+device\+\_\+struct\+::bus}}\label{structKinDrv_1_1usb__device__struct_a0e6de35dc6c03706c83ace64c9febb37}
+U\+S\+B bus number \hypertarget{structKinDrv_1_1usb__device__struct_a03a9e83a8e46ac647654302ceafb2a5f}{\index{Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}!client\+\_\+name@{client\+\_\+name}}
+\index{client\+\_\+name@{client\+\_\+name}!Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}}
+\subsubsection[{client\+\_\+name}]{\setlength{\rightskip}{0pt plus 5cm}char Kin\+Drv\+::usb\+\_\+device\+\_\+struct\+::client\+\_\+name\mbox{[}20\mbox{]}}}\label{structKinDrv_1_1usb__device__struct_a03a9e83a8e46ac647654302ceafb2a5f}
+The name of the Arm (from client\+\_\+config) \hypertarget{structKinDrv_1_1usb__device__struct_a5edef24a9b1076404c9ab42410c82952}{\index{Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}!connected@{connected}}
+\index{connected@{connected}!Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}}
+\subsubsection[{connected}]{\setlength{\rightskip}{0pt plus 5cm}bool Kin\+Drv\+::usb\+\_\+device\+\_\+struct\+::connected}}\label{structKinDrv_1_1usb__device__struct_a5edef24a9b1076404c9ab42410c82952}
+Indicates if arm is in use (connected; has a device\+\_\+handler) or not \hypertarget{structKinDrv_1_1usb__device__struct_a9b0ea0b72fe367e18da99404e9d57c9d}{\index{Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}!dev@{dev}}
+\index{dev@{dev}!Kin\+Drv\+::usb\+\_\+device\+\_\+struct@{Kin\+Drv\+::usb\+\_\+device\+\_\+struct}}
+\subsubsection[{dev}]{\setlength{\rightskip}{0pt plus 5cm}libusb\+\_\+device$\ast$ Kin\+Drv\+::usb\+\_\+device\+\_\+struct\+::dev}}\label{structKinDrv_1_1usb__device__struct_a9b0ea0b72fe367e18da99404e9d57c9d}
+libusb\+\_\+device pointer; refed 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+kindrv.\+cpp\end{DoxyCompactItemize}

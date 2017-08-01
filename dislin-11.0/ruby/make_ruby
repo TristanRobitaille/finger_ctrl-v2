@@ -1,0 +1,30 @@
+echo "/**************************************************************/"
+echo "/**                    m a k e _ r u b y                     **/"
+echo "/**                                                          **/"
+echo "/** Creates a DISLIN Ruby module for UNIX systems.           **/"
+echo "/**                                                          **/"
+echo "/** Command: make_ruby     option                            **/"
+echo "/**                                                          **/"
+echo "/** option   linux_i586, linux_i586_64, fbsd, fbsd_64        **/"
+echo "/**          linux_arm                                       **/"
+echo "/**************************************************************/"
+if test $# -eq 0 ; then
+  exit 0
+fi
+
+if test $1 = linux_i586 ; then
+  gcc -fPIC -I/usr/lib/ruby/1.8/i586-linux/ -shared -Wl,-soname,dislin.so \
+     -o dislin.so dislin.c -L$DISLIN -ldislin_d
+elif test $1 = linux_arm ; then
+  gcc -fPIC -I/usr/include/ruby-1.9.1 -I/usr/include/ruby-1.9.1/arm-linux-eabihf   -shared -Wl,-soname,dislin.so \
+     -o dislin.so dislin.c -L$DISLIN -ldislin_d
+elif test $1 = linux_i586_64 ; then
+  gcc -fPIC -I/usr/lib64/ruby/1.8/x86_64-linux/ -shared -Wl,-soname,dislin.so \
+     -o dislin.so dislin.c -L$DISLIN -ldislin_d
+elif test $1 = fbsd ; then
+gcc -fPIC -I/usr/local/lib/ruby/1.8/i386-freebsd8 -shared -o dislin.so dislin.c -L$DISLIN -ldislin_d
+elif test $1 = fbsd_64 ; then
+gcc -fPIC -I/usr/local/lib/ruby/1.8/amd64-freebsd8 -shared -o dislin.so dislin.c -L$DISLIN -ldislin_d
+fi
+
+

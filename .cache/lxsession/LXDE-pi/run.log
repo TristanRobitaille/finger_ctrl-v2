@@ -1,0 +1,285 @@
+** Message: environement.vala:58: Exporting primary_variable
+** Message: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:149: confir_dirs is null, export : /etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :
+** Message: environement.vala:218: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:219: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « iGtk/ColorScheme »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « windows_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « panel/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « dock/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « file_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « desktop_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « launcher_manager/autostart »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « composite_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « im1/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « im2/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « widget1/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « notification/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « keybindings/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « screensaver/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « power_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « audio_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « workspace_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « screenshot_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « message_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « upgrade_manager/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « upstart_user_session »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « proxy_manager/http »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « a11y/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « xrandr/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « network_gui/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « webbrowser/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « email/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « pdf_reader/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « video_player/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « audio_player/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « images_display/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « text_editor/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « archive/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « charmap/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « calculator/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « spreadsheet/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « bittorent/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « document/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « webcam/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « burn/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « notes/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « disk_utility/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « tasks/command »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « model »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « laptop_mode »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « gnome »
+** Message: settings.vala:527: Le fichier de clés n'a pas de groupe « Updates »
+** Message: settings.vala:527: Le fichier de clés n'a pas de clé « type »
+** Message: settings.vala:449: Monitoring: /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:453: Desktop file is already in config home, do nothing
+** Message: environement.vala:79: Exporting variable
+** Message: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: environement.vala:176: custom_config :
+** Message: environement.vala:177: config_dirs :/etc/xdg
+** Message: environement.vala:178: confir_dirs not null, export : /etc/xdg
+** Message: environement.vala:183: Exporting XDG_CONFIG_DIRS
+** Message: environement.vala:217: custom_data :
+** Message: environement.vala:218: data_dirs :/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:219: data_dirs not null, export : /usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg
+** Message: environement.vala:224: Exporting XDG_DATA_DIRS
+** Message: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE-pi
+** Message: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE-pi/conffiles.conf
+** Message: options.vala:164: Activate xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
+xprop:  no such property "_NET_DESKTOP_NAMES"
+** Message: app.vala:717: polkit separate
+** Message: app.vala:717: polkit separate
+** Message: app.vala:76: Launching lxpolkit 
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: autostart.vala:42: Autostart path : /home/pi/.config/lxsession/LXDE-pi/autostart
+** Message: app.vala:76: Launching lxpanel 
+** Message: app.vala:76: Launching pcmanfm 
+
+** (lxsession:726): WARNING **: app.vala:86: L'exécution du processus fils « xscreensaver » a échoué (Aucun fichier ou dossier de ce type)
+
+** (lxsession:726): WARNING **: app.vala:87: Error when launching xscreensaver
+** Message: app.vala:76: Launching point-rpi 
+** Message: options.vala:107: Create build-in Clipboard
+** Message: main.vala:429: Check keymap_mode user
+** Message: main.vala:432: Create Option Keymap
+** Message: options.vala:80: Show keymap variant : 
+** Message: options.vala:87: Show keymap options : 
+** Message: options.vala:93: Keymap options - return user command setxkbmap -layout ca -variant  -options  
+** Message: options.vala:44: Options - Launch command setxkbmap -layout ca -variant  -options  
+Error!   Option "-options" not recognized
+** Message: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-XM33kdSzbZsi/agent.827; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=832; export SSH_AGENT_PID;
+echo Agent pid 832;
+lxkeymap found
+** Message: app.vala:130: point-rpi exit with this type of exit: 0
+** Message: app.vala:139: Exit normal, don't reload
+** Message: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+Openbox-Message: Impossible de trouver un fichier de menus valide  « /usr/share/lxde/openbox/menu.xml »
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: Unknown property: GtkMenu.ubuntu-local
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called expand
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called fill
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called position
+  builder.add_from_file(ui_filename)
+Sections: ['Global']
+Layouts: ['us']
+Variants: ['']
+Options: []
+['Global']
+Lxkeymap autostart running...
+** Message: Connecting ...
+** Message: Status changed to down
+** Message: Status changed to opened
+** Message: Connected to dhcpcd-6.7.1
+** Message: Status changed to connecting
+** Message: eth0: Link is down
+** Message: wlan0: Associated with eduroam
+** Message: wlan0: WPA status connected
+** Message: wlan0: Received scan results
+** Message: bt: Name org.bluez owned on DBus
+** Message: bt: New agent manager found
+** Message: bt: New adapter found
+** Message: va: Name org.bluez owned on DBus
+** Message: va: Stopping PulseAudio
+** Message: wlan0: Configured 10.248.98.68/16
+** Message: Status changed to connected
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(openbox:812): GLib-CRITICAL **: Source ID 7 was not found when attempting to remove it
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: Unknown property: GtkMenu.ubuntu-local
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called expand
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called fill
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called position
+  builder.add_from_file(ui_filename)
+Error:            Key <MDSW> added to map for multiple modifiers
+                  Using Mod3, ignoring Mod5.
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: wlan0: Received scan results
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: Unknown property: GtkMenu.ubuntu-local
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called expand
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called fill
+  builder.add_from_file(ui_filename)
+/usr/lib/python2.7/dist-packages/lxkeymap/helpers.py:46: GtkWarning: GtkAlignment does not have a property called position
+  builder.add_from_file(ui_filename)
+Error:            Key <MDSW> added to map for multiple modifiers
+                  Using Mod3, ignoring Mod5.
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: settings.vala:496: Desktop file change, reloading XSettings daemon
+** Message: options.vala:186: Reload xsettings_manager build-in
+** Message: utils.vala:68: User config used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: utils.vala:89: Final file used : /home/pi/.config/lxsession/LXDE-pi/desktop.conf
+** Message: settings.vala:490: Reload the xsettings option
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+bootstrap_helper: /usr/lib/chromium-browser/nacl_helper: Cannot open ELF file!  errno=2
+[1:1:0801/211805.141346:ERROR:nacl_fork_delegate_linux.cc(315)] Bad NaCl helper startup ack (0 bytes)
+[1447:1447:0801/211822.548560:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads in process gpu-process. 
+** Message: wlan0: Received scan results
+** Message: wlan0: Disassociated from eduroam
+** Message: Status changed to disconnected
+** Message: wlan0: Associated with eduroam
+** Message: Status changed to connecting
+** Message: wlan0: Configured 10.248.98.68/16
+** Message: Status changed to connected
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results

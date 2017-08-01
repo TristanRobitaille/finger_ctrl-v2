@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/libkindrv_ex_simple.dir/ex_simple.cpp.o  -o libkindrv_ex_simple  -L/usr/local/lib -rdynamic -lkindrv -lboost_system -Wl,-rpath,/usr/local/lib 

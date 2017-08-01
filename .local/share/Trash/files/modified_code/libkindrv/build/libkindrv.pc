@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/usr/local
+exec_prefix=/usr/local/bin
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libkindrv
+Description: Open source library for controlling a Kinova Jaco robotic arm via USB
+Version: 0.1.2
+Libs: -L${libdir} -lkindrv -L/usr/lib/arm-linux-gnueabihf -lboost_system
+Cflags: -I${includedir}/libkindrv -I/usr/include

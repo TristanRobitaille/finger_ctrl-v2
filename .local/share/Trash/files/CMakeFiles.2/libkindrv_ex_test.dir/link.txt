@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/libkindrv_ex_test.dir/test.cpp.o  -o libkindrv_ex_test  -L/usr/local/dislin  -L/usr/local/lib  -Lsrc -rdynamic -lkindrv -lboost_system -ldiscpp -ldislin -Wl,-rpath,/usr/local/dislin:/usr/local/lib:src 

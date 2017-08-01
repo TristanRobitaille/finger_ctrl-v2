@@ -1,0 +1,48 @@
+\hypertarget{structKinDrv_1_1usb__packet__t}{\section{Kin\+Drv\+:\+:usb\+\_\+packet\+\_\+t Struct Reference}
+\label{structKinDrv_1_1usb__packet__t}\index{Kin\+Drv\+::usb\+\_\+packet\+\_\+t@{Kin\+Drv\+::usb\+\_\+packet\+\_\+t}}
+}
+
+
+U\+S\+B packet struct. All U\+S\+B I/\+O is one of this.  
+
+
+
+
+{\ttfamily \#include $<$types.\+h$>$}
+
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structKinDrv_1_1usb__packet__t_aaa785bbcefa917391ae5a335316b26d0}{\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>unsigned char \hyperlink{structKinDrv_1_1usb__packet__t_a1c148e5f7d4aa73edf4dd14446599392}{data} \mbox{[}64\mbox{]}\\
+\hypertarget{unionKinDrv_1_1usb__packet__t_1_1@12_a7f8ba3677f5ce5341429feec63b5bece}{\>struct \{\\
+\>\>\hyperlink{structKinDrv_1_1usb__packet__header__t}{usb\_packet\_header\_t} \hyperlink{structKinDrv_1_1usb__packet__t_a78c5d7c50d214e862212893920c112d7}{header}\\
+\>\>float \hyperlink{structKinDrv_1_1usb__packet__t_aaf50aa504bd699a24581d8a53dbaa52c}{body} \mbox{[}14\mbox{]}\\
+\>\} }\label{unionKinDrv_1_1usb__packet__t_1_1@12_a7f8ba3677f5ce5341429feec63b5bece}
+\\
+\}; }\label{structKinDrv_1_1usb__packet__t_aaa785bbcefa917391ae5a335316b26d0}
+\\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+U\+S\+B packet struct. All U\+S\+B I/\+O is one of this. 
+
+\subsection{Member Data Documentation}
+\hypertarget{structKinDrv_1_1usb__packet__t_aaf50aa504bd699a24581d8a53dbaa52c}{\index{Kin\+Drv\+::usb\+\_\+packet\+\_\+t@{Kin\+Drv\+::usb\+\_\+packet\+\_\+t}!body@{body}}
+\index{body@{body}!Kin\+Drv\+::usb\+\_\+packet\+\_\+t@{Kin\+Drv\+::usb\+\_\+packet\+\_\+t}}
+\subsubsection[{body}]{\setlength{\rightskip}{0pt plus 5cm}float Kin\+Drv\+::usb\+\_\+packet\+\_\+t\+::body\mbox{[}14\mbox{]}}}\label{structKinDrv_1_1usb__packet__t_aaf50aa504bd699a24581d8a53dbaa52c}
+56 byte body, containing the actual data. \hypertarget{structKinDrv_1_1usb__packet__t_a1c148e5f7d4aa73edf4dd14446599392}{\index{Kin\+Drv\+::usb\+\_\+packet\+\_\+t@{Kin\+Drv\+::usb\+\_\+packet\+\_\+t}!data@{data}}
+\index{data@{data}!Kin\+Drv\+::usb\+\_\+packet\+\_\+t@{Kin\+Drv\+::usb\+\_\+packet\+\_\+t}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char Kin\+Drv\+::usb\+\_\+packet\+\_\+t\+::data\mbox{[}64\mbox{]}}}\label{structKinDrv_1_1usb__packet__t_a1c148e5f7d4aa73edf4dd14446599392}
+Access the whole 64 bytes of raw data. \hypertarget{structKinDrv_1_1usb__packet__t_a78c5d7c50d214e862212893920c112d7}{\index{Kin\+Drv\+::usb\+\_\+packet\+\_\+t@{Kin\+Drv\+::usb\+\_\+packet\+\_\+t}!header@{header}}
+\index{header@{header}!Kin\+Drv\+::usb\+\_\+packet\+\_\+t@{Kin\+Drv\+::usb\+\_\+packet\+\_\+t}}
+\subsubsection[{header}]{\setlength{\rightskip}{0pt plus 5cm}{\bf usb\+\_\+packet\+\_\+header\+\_\+t} Kin\+Drv\+::usb\+\_\+packet\+\_\+t\+::header}}\label{structKinDrv_1_1usb__packet__t_a78c5d7c50d214e862212893920c112d7}
+8 byte header information. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+types.\+h\end{DoxyCompactItemize}

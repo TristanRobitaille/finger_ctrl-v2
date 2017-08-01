@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/libkindrv_ex_joystick.dir/ex_joystick.cpp.o  -o libkindrv_ex_joystick  -L/usr/local/lib -rdynamic -lkindrv -lboost_system -Wl,-rpath,/usr/local/lib 

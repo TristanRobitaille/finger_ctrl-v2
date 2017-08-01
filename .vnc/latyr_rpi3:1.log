@@ -1,0 +1,98 @@
+31/07/17 14:13:20 Xvnc version TightVNC-1.3.9
+31/07/17 14:13:20 Copyright (C) 2000-2007 TightVNC Group
+31/07/17 14:13:20 Copyright (C) 1999 AT&T Laboratories Cambridge
+31/07/17 14:13:20 All Rights Reserved.
+31/07/17 14:13:20 See http://www.tightvnc.com/ for information on TightVNC
+31/07/17 14:13:20 Desktop name 'X' (latyr_rpi3:1)
+31/07/17 14:13:20 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+31/07/17 14:13:20 Listening for VNC connections on TCP port 5901
+Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
+xrdb: No such file or directory
+xrdb: can't open file '/home/pi/.Xresources'
+
+31/07/17 14:13:33 Got connection from client 192.168.137.1
+31/07/17 14:13:33 Using protocol version 3.8
+31/07/17 14:13:35 Full-control authentication passed by 192.168.137.1
+31/07/17 14:13:35 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+31/07/17 14:13:35 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+31/07/17 14:13:35 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+31/07/17 14:13:35 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+31/07/17 14:13:35 Using zlib encoding for client 192.168.137.1
+31/07/17 14:13:35 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+31/07/17 14:13:35 Enabling full-color cursor updates for client 192.168.137.1
+31/07/17 14:13:35 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+31/07/17 14:13:35 Pixel format for client 192.168.137.1:
+31/07/17 14:13:35   8 bpp, depth 6
+31/07/17 14:13:35   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+31/07/17 14:13:36 Pixel format for client 192.168.137.1:
+31/07/17 14:13:36   32 bpp, depth 24, little endian
+31/07/17 14:13:36   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+31/07/17 14:13:36   no translation needed
+31/07/17 14:13:36 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+31/07/17 14:13:36 Using hextile encoding for client 192.168.137.1
+31/07/17 14:13:36 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+31/07/17 14:13:36 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+31/07/17 14:13:36 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+31/07/17 14:13:36 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+31/07/17 14:13:36 Enabling full-color cursor updates for client 192.168.137.1
+31/07/17 14:13:36 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+31/07/17 14:15:06 KbdAddEvent: unknown KeySym 0xffe5 - allocating KeyCode 89
+31/07/17 14:15:23 KbdAddEvent: unknown KeySym 0xffaf - allocating KeyCode 90
+31/07/17 14:17:22 KbdAddEvent: unknown KeySym 0xffb1 - allocating KeyCode 91
+31/07/17 14:18:21 KbdAddEvent: unknown KeySym 0xffb0 - allocating KeyCode 92
+31/07/17 14:19:16 KbdAddEvent: unknown KeySym 0xff61 - allocating KeyCode 93
+31/07/17 14:20:08 KbdAddEvent: unknown KeySym 0xff8d - allocating KeyCode 94
+31/07/17 14:31:44 KbdAddEvent: unknown KeySym 0xffaa - allocating KeyCode 95
+31/07/17 14:31:52 Client 192.168.137.1 gone
+31/07/17 14:31:52 Statistics:
+31/07/17 14:31:52   key events received 2560, pointer events 5065
+31/07/17 14:31:52   framebuffer updates 5671, rectangles 11930, bytes 207873431
+31/07/17 14:31:52     cursor shape updates 110, bytes 144196
+31/07/17 14:31:52     copyRect rectangles 376, bytes 6016
+31/07/17 14:31:52     hextile rectangles 11396, bytes 206132067
+31/07/17 14:31:52     zlib rectangles 48, bytes 1591152
+31/07/17 14:31:52   raw bytes equivalent 2094059392, compression ratio 10.081008
+
+31/07/17 14:32:02 Got connection from client 192.168.137.1
+31/07/17 14:32:02 Using protocol version 3.8
+31/07/17 14:32:04 Full-control authentication passed by 192.168.137.1
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+31/07/17 14:32:04 Using zlib encoding for client 192.168.137.1
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+31/07/17 14:32:04 Enabling full-color cursor updates for client 192.168.137.1
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+31/07/17 14:32:04 Pixel format for client 192.168.137.1:
+31/07/17 14:32:04   8 bpp, depth 6
+31/07/17 14:32:04   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+31/07/17 14:32:04 Using raw encoding for client 192.168.137.1
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+31/07/17 14:32:04 Enabling full-color cursor updates for client 192.168.137.1
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+31/07/17 14:32:04 Using zlib encoding for client 192.168.137.1
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+31/07/17 14:32:04 Enabling full-color cursor updates for client 192.168.137.1
+31/07/17 14:32:04 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+31/07/17 14:32:04 Pixel format for client 192.168.137.1:
+31/07/17 14:32:04   32 bpp, depth 24, little endian
+31/07/17 14:32:04   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+31/07/17 14:32:04   no translation needed
+31/07/17 14:32:07 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+31/07/17 14:32:07 Using hextile encoding for client 192.168.137.1
+31/07/17 14:32:07 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+31/07/17 14:32:07 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+31/07/17 14:32:07 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+31/07/17 14:32:07 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+31/07/17 14:32:07 Enabling full-color cursor updates for client 192.168.137.1
+31/07/17 14:32:07 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+31/07/17 14:32:18 KbdAddEvent: unknown KeySym 0xffb3 - allocating KeyCode 96

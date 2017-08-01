@@ -1,0 +1,208 @@
+/************************************************************************/
+/**                                                                    **/
+/**                   Linux Installation of DISLIN                     **/
+/**                                                                    **/
+/** Contents: 1.) Introduction                                         **/
+/**           2.) Installation of the tar.gz Distribution              **/
+/**           3.) Compiling, Linking and Running the Example Programs  **/ 
+/**           4.) Using DISLIN from Perl                               **/
+/**           5.) Using DISLIN from Python                             **/
+/**           6.) Using DISLIN from Java                               **/
+/**           7.) Using DISLIN from Ruby                               **/
+/**           8.) Using DISLIN from Tcl                                **/
+/**           9.) Getting a DISLIN License                             **/
+/**          10.) Web Sites.                                           **/
+/**                                                                    **/
+/** Date   : 15.01.2017                                                **/
+/** Version: 11.0 / Linux ARM, Raspbian, gcc, g++, gfortran,           **/
+/**                 Perl, Python, Java, Ruby, Tcl                      **/ 
+/** Author : Helmut Michels                                            **/
+/**          MPI fuer Sonnensystemforschung,                           **/
+/**          Justus-von-Liebig-Weg 3, 37077 Goettingen, Germany        **/
+/** Mail:    michels@dislin.de                                         **/
+/************************************************************************/
+
+
+1.) Introduction
+
+   DISLIN is a high level and easy to use graphics library for displaying
+   data as curves,  bar graphs,  pie charts,  3D-colour plots,  surfaces,
+   contours and maps. The software is available for several C, Fortran 77
+   and Fortran 90 compilers.
+
+   The UNIX versions of the graphics software  DISLIN  are distributed as 
+   compressed tar files with the file names 'dislin-n.m.xxx.tar.gz' where
+   'n.m' contains the DISLIN version while the part 'xxx'  identifies the 
+   operating system or compiler.  
+
+         
+2.) Installation of the tar.gz Distribution
+
+a) Uncompress the tar.gz file with the command
+
+                  gzip -d     dislin-11.0.linux.arm.tar.gz
+
+
+b) Restore files from the tar file with the command
+
+                  tar   xvf   dislin-11.0.linux.arm.tar    
+
+c) Change to the extraction directory of DISLIN
+
+                  cd    dislin-11.0
+
+d) Choose a directory in the file structure where DISLIN should be
+   installed and define the environment variable DISLIN with it:
+
+   For example:    DISLIN=$HOME/dislin     (or: /usr/local/dislin)
+                   export DISLIN
+    
+e) Run the install program with the command 
+
+                   INSTALL
+
+   This program copies files to $DISLIN and sets protections.
+
+f) To make DISLIN available for general use, write the following com-
+   mands to your .profile or to /etc/profile
+
+                    DISLIN=directory                     
+                    export DISLIN
+                    PATH=${PATH}:${DISLIN}/bin
+
+                    LD_LIBRARY_PATH=$DISLIN:$LD_LIBRARY_PATH
+                    export LD_LIBRARY_PATH
+
+   Note: The environment variable DISLIN is not necessary if DISLIN
+         is installed in the default directory '/usr/local/dislin'. 
+
+g) You can delete the directory 'dislin-11.0'.
+
+
+4.) Compiling, Linking and Running the Example Programs
+  
+   Now you can compile, link and run the example programs in the
+   directory $DISLIN/examples with the commands:
+
+                    clink     -a exa_c      (for gcc)
+                    cpplink   -a exa_cpp    (for g++)
+                    gf77link  -a exa_f77    (for gfortran)
+                    gf95link  -a exa_f90    (for gfortran)
+
+   Analog the examples map_c.c, map_cpp.cpp, map_f77.f and map_f90.f90. 
+
+   Notes: - The utilities above link by default with the DISLIN single 
+            precision library libdislin.so. A double precision version
+            of the library for real numbers with the name libdislin_d.so
+            is included in this distribution. The Dislin library for C++
+            is only implemented as a double precision library.
+
+ 
+4.) Using DISLIN from Perl        
+
+   A DISLIN module for the programming language Perl is included in this
+   DISLIN distribution. The module and some examples can be found in the
+   directory $DISLIN/perl
+
+   To use DISLIN from Perl, you have to define the  environment variable
+   PERL5LIB:
+
+             export PERL5LIB=$DISLIN/perl
+
+   Note: The Perl module was created with Perl version 5.14.2.
+
+
+5.) Using DISLIN from Python        
+
+   An extension module for the programming language Python is also 
+   included in  DISLIN for Linux. The module and examples can be found
+   in the directory $DISLIN/python ($DISLIN/python3 for Python3). 
+
+   To use DISLIN from Python, you have to define the  environment variable
+   PYTHONPATH:
+
+             export PYTHONPATH=$DISLIN/python
+
+   Note: Source code of the Python extension is included in $DISLIN/python
+         for re-creating the module.
+
+
+6.) Using DISLIN from Java        
+
+   An interface for the programming language Java is also included in
+   the DISLIN distribution for Linux. It allows to use DISLIN routines
+   from Java applications. The interface and examples can be found in 
+   the directory $DISLIN/java
+
+   To use DISLIN from Java, you have to define the  environment variable
+   CLASSPATH:
+
+             export CLASSPATH=$DISLIN/java/dislin.jar:.
+   
+   The examples in $DISLIN/java can be compiled and executed with the
+   commands
+
+   javac  example.java
+   java   example 
+
+   Note:  The shareable library disjava-11.0.so in the directory $DISLIN/java
+          was created with Java version Open-JDK 1.7.0
+
+
+7.) Using DISLIN from Ruby  
+
+   A pre-compiled extension module for the programming language Ruby is
+   included in DISLIN for Linux. The module and examples can be found
+   in the directory $DISLIN/ruby.
+
+   To use DISLIN from Ruby, you have to define the  environment variable
+   RUBYLIB:
+
+             export RUBYLIB=$DISLIN/ruby
+
+   The examples in $DISLIN/ruby can be executed with the command:
+
+   ./curve.rb
+   ...
+
+   Note: Source code of the Ruby extension is included in $DISLIN/ruby
+         for re-creating the module.
+
+
+8.) Using DISLIN from Tcl  
+
+   A pre-compiled extension module for is also included in DISLIN for
+   Linux. The module and examples can be found in the directory
+   $DISLIN/tcl.
+
+   To use DISLIN from Tcl, you have to add the directory $DISLIN/tcl
+   to the environment variable LD_LIBRARY_PATH
+
+             LD_LIBRARY_PATH=$DISLIN/tcl:$LD_LIBRARY_PATH
+             export LD_LIBRARY_PATH
+
+   The examples in $DISLIN/tcl can be executed with the command:
+
+   tclsh curve.tcl
+   ...
+
+   Note: Source code of the Tcl extension is included in $DISLIN/tcl
+         for re-creating the module.
+
+
+9.) Getting a DISLIN License
+
+   DISLIN is free for non-commercial use. Licenses for commercial use,
+   or for just supporting DISLIN, are available from the site 
+   http://www.dislin.de. 
+
+
+10.) Web Sites
+
+   DISLIN is available via ftp anonymous from the following site:
+
+      ftp://ftp.gwdg.de/pub/grafik/dislin 
+
+   The DISLIN home page is:
+
+      http://www.dislin.de

@@ -1,0 +1,7 @@
+/home/pi/libkindrv/examples/build/CMakeFiles/edit_cache.dir
+/home/pi/libkindrv/examples/build/CMakeFiles/rebuild_cache.dir
+/home/pi/libkindrv/examples/build/CMakeFiles/libkindrv_ex_main.dir
+/home/pi/libkindrv/examples/build/CMakeFiles/libkindrv_ex_dualarm.dir
+/home/pi/libkindrv/examples/build/CMakeFiles/libkindrv_ex_joystick.dir
+/home/pi/libkindrv/examples/build/CMakeFiles/libkindrv_ex_ctrl.dir
+/home/pi/libkindrv/examples/build/CMakeFiles/libkindrv_ex_simple.dir

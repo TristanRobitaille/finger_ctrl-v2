@@ -1,0 +1,55 @@
+\hypertarget{structKinDrv_1_1jaco__position__t}{\section{Kin\+Drv\+:\+:jaco\+\_\+position\+\_\+t Struct Reference}
+\label{structKinDrv_1_1jaco__position__t}\index{Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}}
+}
+
+
+Jaco universal position struct.  
+
+
+
+
+{\ttfamily \#include $<$types.\+h$>$}
+
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structKinDrv_1_1jaco__position__t_a8c95501ee89b3e5c7277846fceef9eb0}{\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>float \hyperlink{structKinDrv_1_1jaco__position__t_a6468a318e932c3de3c3eb6bc635f9ec5}{joints} \mbox{[}6\mbox{]}\\
+\hypertarget{unionKinDrv_1_1jaco__position__t_1_1@0_a6cd88440b309e526c9b434f09188b45e}{\>struct \{\\
+\>\>float \hyperlink{structKinDrv_1_1jaco__position__t_ae9e89e3dcee621d173f51a31205fd876}{position} \mbox{[}3\mbox{]}\\
+\>\>float \hyperlink{structKinDrv_1_1jaco__position__t_a571a8abbb90baf738130946b06d2808d}{rotation} \mbox{[}3\mbox{]}\\
+\>\} }\label{unionKinDrv_1_1jaco__position__t_1_1@0_a6cd88440b309e526c9b434f09188b45e}
+\\
+\}; }\label{structKinDrv_1_1jaco__position__t_a8c95501ee89b3e5c7277846fceef9eb0}
+\\
+
+\end{tabbing}\item 
+float \hyperlink{structKinDrv_1_1jaco__position__t_a6002dbd691637b90deaccc69e2f5d07d}{finger\+\_\+position} \mbox{[}3\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Jaco universal position struct. 
+
+Contains 9 floats. The last 3 are finger positions. The first 6 can be either angular joint values, or cartesian position and rotation values. 
+
+\subsection{Member Data Documentation}
+\hypertarget{structKinDrv_1_1jaco__position__t_a6002dbd691637b90deaccc69e2f5d07d}{\index{Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}!finger\+\_\+position@{finger\+\_\+position}}
+\index{finger\+\_\+position@{finger\+\_\+position}!Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}}
+\subsubsection[{finger\+\_\+position}]{\setlength{\rightskip}{0pt plus 5cm}float Kin\+Drv\+::jaco\+\_\+position\+\_\+t\+::finger\+\_\+position\mbox{[}3\mbox{]}}}\label{structKinDrv_1_1jaco__position__t_a6002dbd691637b90deaccc69e2f5d07d}
+Array containing the three finger positions. \hypertarget{structKinDrv_1_1jaco__position__t_a6468a318e932c3de3c3eb6bc635f9ec5}{\index{Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}!joints@{joints}}
+\index{joints@{joints}!Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}}
+\subsubsection[{joints}]{\setlength{\rightskip}{0pt plus 5cm}float Kin\+Drv\+::jaco\+\_\+position\+\_\+t\+::joints\mbox{[}6\mbox{]}}}\label{structKinDrv_1_1jaco__position__t_a6468a318e932c3de3c3eb6bc635f9ec5}
+Reading the position as an array of joint values. \hypertarget{structKinDrv_1_1jaco__position__t_ae9e89e3dcee621d173f51a31205fd876}{\index{Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}!position@{position}}
+\index{position@{position}!Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}}
+\subsubsection[{position}]{\setlength{\rightskip}{0pt plus 5cm}float Kin\+Drv\+::jaco\+\_\+position\+\_\+t\+::position\mbox{[}3\mbox{]}}}\label{structKinDrv_1_1jaco__position__t_ae9e89e3dcee621d173f51a31205fd876}
+Reading the position as arrays of position(=this) and rotation values. \hypertarget{structKinDrv_1_1jaco__position__t_a571a8abbb90baf738130946b06d2808d}{\index{Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}!rotation@{rotation}}
+\index{rotation@{rotation}!Kin\+Drv\+::jaco\+\_\+position\+\_\+t@{Kin\+Drv\+::jaco\+\_\+position\+\_\+t}}
+\subsubsection[{rotation}]{\setlength{\rightskip}{0pt plus 5cm}float Kin\+Drv\+::jaco\+\_\+position\+\_\+t\+::rotation\mbox{[}3\mbox{]}}}\label{structKinDrv_1_1jaco__position__t_a571a8abbb90baf738130946b06d2808d}
+Reading the position as arrays of position and rotation(=this) values. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+types.\+h\end{DoxyCompactItemize}

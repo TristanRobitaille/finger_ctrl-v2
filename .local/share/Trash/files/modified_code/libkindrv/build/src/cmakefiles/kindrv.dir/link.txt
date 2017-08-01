@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -Wall -Werror  -shared -Wl,-soname,libkindrv.so.0 -o libkindrv.so.0.1.2 CMakeFiles/kindrv.dir/kindrv.cpp.o CMakeFiles/kindrv.dir/exception.cpp.o CMakeFiles/kindrv.dir/Robot_IMU_Control.cpp.o CMakeFiles/kindrv.dir/mySerial.cpp.o -lusb-1.0 -lboost_system 
