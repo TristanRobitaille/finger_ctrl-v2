@@ -1,65 +1,6 @@
 ls
 cd ..
 ls
-rmdir dislin-11.0/
-clear
-ls
-gzip -d dislin-11.0.linux.arm.tar.gz
-tar xvf dislin-11.0.linux.arm.tar 
-clear
-ls
-cd dislin-11.0
-DISLIN=/usr/local/dislin
-export DISLIN
-ls
-sudo ./INSTALL
-clear
-printenv
-ls
-cd dislin-11.0/
-ls
-export DISLIN
-./INSTALL
-LS
-ls
-clear
-printenv
-DISLIN=/usr/local/dislin
-printenv
-./INSTALL
-sudo ./INSTALL
-clear
-ls
-DISLIN=$HOME/dislin
-export DISLIN
-printenv
-clear
-ls
-./INSTALL
-ls
-cd ..
-ls
-cd dislin
-ls
-cd ..
-ls
-cd ..
-clear
-ls
-cd pi
-ls
-cd dislin
-ls
-cd examples
-export DISLIN=dislin_directory
-PATH=${PATH}:${DISLIN}/bin
-LD_LIBRARY_PATH=$DISLIN:$LD_LIBRARY_PATH
-export LD_LIBRARY_PATH
-clear
-cd ..
-ls
-cd ..
-ls
 clear
 ls
 cd dislin
@@ -1998,3 +1939,62 @@ clear
 cmake ..
 make
 ./projet_imu
+ls
+cd projet_tristan
+l
+la
+ls
+git status
+git help
+git add
+git init
+cd
+ls
+git init
+git status
+git add
+git add .
+git add -A
+git commit -m
+git commit "Changes from Aug-1"
+git commit -m "Changes from Aug-1"
+git status
+git push
+git push https://github.com/fingerctrl/projet_tristan_RPi.git
+clear
+ls
+cd projet_tristan
+git remote add origin https://github.com/TristanRobitaille/finger_ctrl-v2.git
+git init
+cd ..
+ls
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/TristanRobitaille/finger_ctrl-v2.git
+git push -u origin master
+git add -A
+git status
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/TristanRobitaille/finger_ctrl-v2.git
+git push -u origin master
+clear
+ls
+cd Desktop
+ls
+cd ..
+ls
+cd pi
+ls
+cd .git
+;s
+ls
+cd
+projet_tristan
+cd projet_tristan
+ls
+cd .git
+ls
+cd projet_tristan
+git status
+clear

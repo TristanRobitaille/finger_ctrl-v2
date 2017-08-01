@@ -283,3 +283,59 @@ bootstrap_helper: /usr/lib/chromium-browser/nacl_helper: Cannot open ELF file!  
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
 ** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Disassociated from eduroam
+** Message: Status changed to disconnected
+** Message: wlan0: Associated with eduroam
+** Message: Status changed to connecting
+** Message: wlan0: Configured 10.248.98.68/16
+** Message: Status changed to connected
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Disassociated from eduroam
+** Message: Status changed to disconnected
+** Message: wlan0: Associated with eduroam
+** Message: Status changed to connecting
+** Message: wlan0: Configured 10.248.98.68/16
+** Message: Status changed to connected
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Disassociated from eduroam
+** Message: Status changed to disconnected
+** Message: wlan0: Associated with eduroam
+** Message: Status changed to connecting
+** Message: wlan0: Configured 10.248.98.68/16
+** Message: Status changed to connected
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+** Message: wlan0: Received scan results
+
+(pcmanfm:818): Gtk-WARNING **: Radio group does not contain an action with value '0'
+
+** (lxpanel:817): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
+** Message: wlan0: Received scan results
